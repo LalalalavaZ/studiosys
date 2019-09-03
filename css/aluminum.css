@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-bottom: 130px solid silver;
+    margin: 10px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-top: 130px solid silver;
+    margin: 10px;
+}
+
+#01{
+    transform: translate(0, 130px);
+}

@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    background-color: rgb(200,230,250);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(120,130,180);
+}
+
+#indextitle{
+    position: absolute;
+/*    padding-top: 26%;*/
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 85px;
+    line-height: 10%;
+    right: -20px;
+    bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: rgb(100,130,180,0.5);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 25px;
+}
+
+li a{
+    display: block;
+    color:rgb(20,50,100);
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: rgb(100,130,180);
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(100,130,180,0.6);
+    color: white;
+}
+
+#title5x5{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 70px;
+}
+
+tr, td{
+    margin: 0;
+    border: 2px solid rgb(100,130,180);
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background: #7882B4;
+}

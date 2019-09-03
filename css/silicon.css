@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0; 
+}
+
+#silicon{
+/*    background-image: linear-gradient(to right, rgb(150,150,150), rbg(200,150,50), rgb(170,65,250));*/
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(0.25turn, #A4A4AF, #CEA100, #B851E1, #2945FC, #8CA1BE, #C5986A, #9D2AFC);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, td, tr{
+    border: 10px solid #A4A4AF;
+}
+
+td, tr{
+    padding: 23px;
+}
